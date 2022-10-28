@@ -1,16 +1,15 @@
-import Navbar from './components/Navbar'
-import Cards from './components/Cards'
+import {Navbar} from './components/Navbar'
+import {Card} from './components/Card'
 import './App.css'
 import data from './data'
 
-function App() {
+export function App() {
   const elements = data.map(item => {
-    return <Cards
+    return <Card
       key={item.id}
       item={item}
     />
   })
-  console.log(data)
   return (
     <div className="container">
       <Navbar />
@@ -19,4 +18,4 @@ function App() {
   );
 }
 
-export default App;
+

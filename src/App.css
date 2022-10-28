@@ -37,25 +37,25 @@ body, html {
   margin-right: 7px;
 }
 
-/* Cards Styles */
+/* Card Styles */
 
-.cards-container {
+.card-container {
   display: flex;
   align-items: center;
   margin-top: 45px;
 }
 
-.cards-description {
+.card-description {
   margin-left: 19px;
 }
 
-.cards-image {
+.card-image {
   width: 145px;
   height: 168px;
   border-radius: 5px;
 }
 
-.cards-country {
+.card-country {
   font-size: 11px;
   font-weight: 400;
   letter-spacing: 0.17em;
@@ -63,7 +63,7 @@ body, html {
   margin-right: 12px;
 }
 
-.cards-maps {
+.card-maps {
   font-size: 10px;
   font-weight: 400;
   color: #918E9B;
@@ -83,7 +83,7 @@ h2 {
   margin-bottom: 9px;
 }
 
-.cards-description > p {
+.card-description > p {
   color:#2B283A;
   font-size: 11px;
   font-weight: 400;

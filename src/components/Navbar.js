@@ -1,7 +1,7 @@
 import React from 'react'
 import ImgNav from '../Images/Fill 213.png'
 
-export default function Navbar () {
+export function Navbar () {
     return (
         <nav className="navbar">
             <div className="navbar-text">
